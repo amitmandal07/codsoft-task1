@@ -1,0 +1,94 @@
+.paragraph{
+    text-align: left;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+}
+.paragraph2{
+    text-align: left;
+    font-size: 70px;
+    font-family: 'jacquard', Arial, Helvetica, sans-serif;
+    color: rgb(31, 6, 6);
+}
+.menu-bar
+{
+text-align:center;
+background-color: #080809;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:rgb(227, 201, 150)
+}
+.menu-bar ul li
+{
+    font-family: url('https://fonts.google.com/share?selection.family=Lexend:wght@100..900');
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: #610c11;
+    color: #f7f715;
+    border-radius:3px;
+}
+.paragraph5{
+    text-align: left;
+    font-size: 20px;
+    font-family: monospace ;
+    margin: 45px;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+
+
+.lets-go-btn{
+    color: floralwhite;
+    background: #80151d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 3.5px; 
+}
+.lets-go-btn:hover{
+    background: rgb(54, 1, 1);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icons a { 
+    margin-right:75px
+}
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    display: flexbox;
+    margin-top:28%;
+    padding: 45px;
+}
+.p1{
+    color: floralwhite;
+    font-size: larger;
+}
+
